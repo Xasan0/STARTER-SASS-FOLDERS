@@ -1,0 +1,28 @@
+header {
+
+    background-color: #000000;
+    height: 80px;
+
+    &.nav {
+
+        .nav__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .nav__wrapper--left {
+                display: flex;
+                justify-content: space-between;
+
+                .nav__wrapper--left-title {
+                    color: #fff;
+                    font-size: 18px;
+                }
+
+            }
+
+        }
+
+    }
+
+}
